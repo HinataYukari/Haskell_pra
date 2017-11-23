@@ -6,7 +6,7 @@ fact n = n * (fact (n-1))
 
 -- ガードを用いて（ガードはBool!）
 fact' n  | n == 0 = 1
-              | n >= 1 = n * fact' (n-1)
+         | n >= 1 = n * fact' (n-1)
    
 -- 配列の関数、便利だ
 fact'' 0 = 1
