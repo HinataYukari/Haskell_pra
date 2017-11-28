@@ -15,7 +15,7 @@ data Character = Character
                 } deriving (Show, Eq)
 
 -- 型シノニム（今回は使用せず）
-type Name  = String
+type Name = String
 type Place = String
 
 cocoa, chino, chiya, rize, syaro :: Character
